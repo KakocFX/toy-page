@@ -333,13 +333,11 @@ main{
     .summon-menu{
         margin: 0px 0px 0px 15px;
         display: block;
-        position: relative;
         z-index: 2;
     }
     
     .hearts{
         margin-left: 71px;
-        margin-right: auto;
     }
 
     
@@ -368,24 +366,15 @@ main{
        
     }
     
-    .welcome{
-        display: flex;
-        flex-direction: column;
-        }
-    
     .welcome-title{
      
         font-size: 28px;
         line-height: 38px;
         width: 270px;
         margin: 0px 0px 40px 0px ;
-        position: relative;
-        z-index: 1;
-     
     }
     
     .more-block{
-        display: flex;
         flex-direction: column;
         margin-top: 300px;
     }
@@ -407,17 +396,15 @@ main{
         margin-top: 0px;
     }
     .rb {
-        position: relative;
         z-index: 2;
         margin: 50px 0px 0px 0px;
-        display: flex;
         flex-direction: column;
     }
     
     .unicorn{
        margin: 0px;
        width: 95%;
-       height: auto;
+
        position: absolute;
        z-index: 2;
        top: 240px;
@@ -431,7 +418,7 @@ main{
     .yellow-back{
         top: -98px;
         width: 305px;
-        height: 890px;
+        height: 850px;
         left: 70px;
         z-index: 0;
     }
